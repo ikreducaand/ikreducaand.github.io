@@ -19,15 +19,54 @@ h1 {
 }
 
 a {
-    display: block;
+    display: inline-block;
     text-align: center;
-    margin: 20px 0;
+    margin: 20px auto;
+    padding: 10px 20px;
     color: #004d40;
     text-decoration: none;
+    background-color: #b2dfdb;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
 }
 
 a:hover {
-    text-decoration: underline;
+    background-color: #80cbc4;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.sobre-mi-aprendizaje {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-mi-aprendizaje h2 {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sobre-mi-aprendizaje p {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 16px;
+}
+
+.contenido {
+    display: flex;
+    align-items: center;
+}
+
+.foto-aprendizaje {
+    margin-left: 20px;
+    max-width: 150px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
@@ -53,7 +92,7 @@ footer {
 }
 
 .icon.twitter {
-    background-image: url('https://simpleicons.org/icons/twitter.svg');
+    background-image: url('https://simpleicons.org/icons/x.svg');
 }
 
 .icon.facebook {
