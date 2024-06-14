@@ -97,6 +97,22 @@ footer {
     background-size: cover;
 }
 
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 5px; /* Ajusta el espacio entre elementos de la lista */
+}
+
+ul li::before {
+    content: "·"; /* Agrega el punto medio como contenido antes de cada elemento */
+    font-weight: bold; /* Hace que el punto medio sea negrita */
+    display: inline-block;
+    width: 1em; /* Ajusta el ancho según sea necesario */
+    margin-left: -1em; /* Alinea el punto medio con el texto */
+}
 .icon.twitter {
     background-image: url('https://simpleicons.org/icons/x.svg');
 }
