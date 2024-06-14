@@ -50,6 +50,8 @@ h1 {
     background-color: #fff;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Usamos flexbox para alinear verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
 }
 
 .sobre-mi-aprendizaje h2 {
@@ -64,12 +66,10 @@ h1 {
 }
 
 .contenido {
-    display: flex;
-    align-items: center;
+    margin-left: auto; /* Empuja el contenido a la derecha */
 }
 
 .foto-aprendizaje {
-    margin-left: auto; /* Centra la imagen a la derecha */
     max-width: 150px;
     height: auto;
     border: 1px solid #ddd;
