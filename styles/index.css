@@ -1,8 +1,14 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+}
+
+.content {
     margin: 20px;
     padding: 20px;
-    background-color: #e0f7fa;
+    background-color: #fff;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -26,8 +32,38 @@ a:hover {
 
 footer {
     text-align: center;
-    margin-top: 20px;
-    padding: 10px 0;
+    padding: 20px 0;
     background-color: #00796b;
     color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    background-size: cover;
+}
+
+.icon.twitter {
+    background-image: url('https://simpleicons.org/icons/twitter.svg');
+}
+
+.icon.facebook {
+    background-image: url('https://simpleicons.org/icons/facebook.svg');
+}
+
+.icon.instagram {
+    background-image: url('https://simpleicons.org/icons/instagram.svg');
+}
+
+.icon.linkedin {
+    background-image: url('https://simpleicons.org/icons/linkedin.svg');
 }
